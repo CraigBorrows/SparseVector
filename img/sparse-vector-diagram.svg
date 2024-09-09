@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <!-- Background -->
+  <rect width="600" height="300" fill="#f0f0f0"/>
+  
+  <!-- SparseVector Container -->
+  <rect x="50" y="30" width="500" height="240" fill="#e6e6e6" stroke="#333" stroke-width="2"/>
+  <text x="300" y="20" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">SparseVector</text>
+  
+  <!-- Indices Vector -->
+  <rect x="70" y="50" width="460" height="60" fill="#b3d9ff" stroke="#333" stroke-width="2"/>
+  <text x="300" y="80" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Indices Vector (std::optional&lt;uint32_t&gt;)</text>
+  
+  <!-- Objects Vector -->
+  <rect x="70" y="180" width="460" height="60" fill="#ffcccc" stroke="#333" stroke-width="2"/>
+  <text x="300" y="210" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Objects Vector (T)</text>
+  
+  <!-- Indices -->
+  <text x="100" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">0</text>
+  <text x="180" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">1</text>
+  <text x="260" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">5</text>
+  <text x="340" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">9</text>
+  <text x="420" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">10</text>
+  <text x="500" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">null</text>
+  
+  <!-- Object Values -->
+  <text x="100" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">A</text>
+  <text x="180" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">B</text>
+  <text x="260" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">E</text>
+  <text x="340" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">I</text>
+  <text x="420" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">J</text>
+  
+  <!-- Arrows -->
+  <line x1="100" y1="110" x2="100" y2="180" stroke="#333" stroke-width="1"/>
+  <line x1="180" y1="110" x2="180" y2="180" stroke="#333" stroke-width="1"/>
+  <line x1="260" y1="110" x2="260" y2="180" stroke="#333" stroke-width="1"/>
+  <line x1="340" y1="110" x2="340" y2="180" stroke="#333" stroke-width="1"/>
+  <line x1="420" y1="110" x2="420" y2="180" stroke="#333" stroke-width="1"/>
+</svg>
